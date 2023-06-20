@@ -1,0 +1,16 @@
+nav
+{
+    float: left;
+    background-color: aqua;
+	margin: 55px;
+	margin-right: 160px;
+    
+}
+
+.divnav
+{
+	margin: auto;
+	background-color: aqua;
+	display: inline-block;
+	margin-left: 300px;
+}
