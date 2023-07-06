@@ -1,16 +1,23 @@
-nav
-{
-    float: left;
-    background-color: aqua;
-	margin: 55px;
-	margin-right: 160px;
-    
+
+body{
+	font-family: 'Times New Roman', Times, serif;
 }
 
-.divnav
-{
-	margin: auto;
-	background-color: aqua;
-	display: inline-block;
-	margin-left: 300px;
+header{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: aqua;
 }
+
+.navlinks{
+	list-style: none;
+	display: flex;
+}
+
+.navlinks li{
+	padding: 25px;
+}
+
+
