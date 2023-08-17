@@ -1,23 +1,37 @@
 
 body{
 	font-family: 'Times New Roman', Times, serif;
+	background-size: 100%;
+	background-image: url(./kepek/backgroundimage.png);
+	background-repeat: no-repeat;
 }
 
-header{
+
+
+.flex-container{
 	display: flex;
-    justify-content: flex-end;
+	flex-wrap: nowrap;
+	background-color: #24252B ;
+	
+	
+}
+
+.flex-container > div {
+	padding: 20px;
+	font-size: 30px;
+	margin: auto;
+	color: #f1f1f1;
+
+}
+
+.header{
+	display: flex;
     align-items: center;
-    padding: 10px 10%;
-    background-color: aqua;
+    padding: 10px;
 }
-
-.navlinks{
-	list-style: none;
-	display: flex;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
-.navlinks li{
-	padding: 25px;
-}
-
 
